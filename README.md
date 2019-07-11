@@ -17,3 +17,6 @@ This requires you to turn on developer mode in chrome extensions. Navigate to `c
 
 ### Facing No subscription error
 In case of encountering such a message from hotstar, stop the debugging and start it again by clicking on the extension 'H' icon. Reload the page.
+
+## Disclaimer
+This is made as a proof of concept for disclosing the bug in the streaming platform and not intended for any misuse.
