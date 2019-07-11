@@ -1,0 +1,21 @@
+{
+    "name": "Hotstar Premium",
+    "version": "1.0",
+    "description": "Hotstar exploit POC",
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "content_scripts": [ {
+        "matches": ["http://*.hotstar.com/*", "https://*.hotstar.com/*"],
+        "js": ["crypto-js.min.js", "hmac-sha256.min.js", "enc-base64.min.js", "setcookie.js"]
+    }],
+    "page_action": {
+        "default_title": "Get Hotstar Premium"
+    },
+    "permissions": [
+        "debugger",
+        "declarativeContent"
+    ],
+    "manifest_version": 2
+  }
