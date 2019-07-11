@@ -1,10 +1,13 @@
 # hotstar-bug-poc
 Proof of concept for Hotstar premium client state manipulation vulnerability.
 
-## Load the extension
-1. Go to `More tools -> Extensions` on chrome.
-2. Turn on Developer tools on the top right.
-3. Click Load unpacked button and select the `chrome_extension` folder from this repository.
+## Install the plugin
+
+This requires you to turn on developer mode in chrome extensions. Navigate to `chrome://extensions/` and turn on developer mode.
+
+1. You may consider using packed release version of this plugin. Download latest release from [here](https://github.com/realramkumar/hotstar-bug-poc/releases) and ignore any warnings. Drag the downloaded `.crx` file into the `chrome://extensions/` page.
+
+2. For unpacked versions, select **load unpacked** and choose the `chrome_extension` directory of this repository.
 
 ## How to use
 1. Go to hotstar and click on the extension 'H' icon next to the address bar.
