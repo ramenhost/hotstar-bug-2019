@@ -69,4 +69,5 @@ if(!getCookie('userMemberHID')) {
   cookie = cookie.replace("YYYY", jwt);
   document.cookie = cookie;
   alert('Enjoy premium\nMust watch series: Fringe(2008)');
+  location.reload();
 }

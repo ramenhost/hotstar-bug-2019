@@ -10,10 +10,12 @@ This requires you to turn on developer mode in chrome extensions. Navigate to `c
 2. For unpacked versions, select **load unpacked** and choose the `chrome_extension` directory of this repository.
 
 ## How to use
-1. Go to hotstar and click on the extension 'H' icon next to the address bar.
-2. A message saying `Hotstar premium is debugging this browser` should appear on the top (Don't cancel until done watching).
-3. Play your desired video.
-4. Cancel the debugging once you're done watching hotstar.
+1. Go to hotstar and navigate to the desired premium content (Don't click on watch video button).
+2. Click on the extension 'H' icon next to the address bar.
+3. A message saying `Hotstar premium is debugging this browser` should appear on the top (Don't cancel until done watching).
+4. Play your desired video.
+5. Cancel the debugging once you're done watching.
+6. You can change the email with which you want to login on the `chrome_extension/setcookie.js` script. (optional)
 
 ### Facing No subscription error
 In case of encountering such a message from hotstar, stop the debugging and start it again by clicking on the extension 'H' icon. Reload the page.
