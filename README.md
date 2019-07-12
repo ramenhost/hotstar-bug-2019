@@ -1,6 +1,9 @@
 # hotstar-bug-poc
 Proof of concept for Hotstar premium client state manipulation vulnerability.
 
+## Docs
+- [Exploit](https://github.com/realramkumar/hotstar-bug-poc/blob/master/exploit.md)
+
 ## Install the plugin
 
 This requires you to turn on developer mode in chrome extensions. Navigate to `chrome://extensions/` and turn on developer mode.
